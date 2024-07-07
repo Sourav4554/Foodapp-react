@@ -1,0 +1,50 @@
+.unordered-list{
+display: flex;
+list-style: none;
+padding: 0;
+}
+.div{
+background-color: rgb(31, 28, 28); ;
+ margin: -1.2%;
+display: flex;
+align-items: center;
+justify-content: center; 
+}
+.unordered-list li{
+background-color:  rgb(224, 201, 201) ;
+color: black;
+transition: 0.5s ease;
+width: 40px;
+height: 40px;
+display: flex; 
+ justify-content: center;
+align-items: center;
+border: 2px solid rgb(224, 201, 201);
+border-radius: 5px;
+cursor: pointer;
+}
+.unordered-list li:hover{
+    background-color: #ff9800;
+    
+}
+.unordered-list li.active{
+    background-color: #ff9800;
+}
+@media screen and (max-width: 768px) {
+    .unordered-list {
+        flex-wrap: nowrap; /* Prevent wrapping on small screens */
+        overflow-x: scroll; /* Enable horizontal scrolling */
+    }
+
+    .div {
+        flex-wrap: nowrap; /* Prevent wrapping on small screens */
+        overflow-x: scroll; /* Enable horizontal scrolling */
+    }
+
+    .unordered-list li {
+        width: 30px; /* Adjust size of items for smaller screens */
+        height: 30px; /* Adjust size of items for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+        margin: 3px; /* Adjust spacing between items */
+    }
+}

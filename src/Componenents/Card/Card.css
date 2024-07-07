@@ -1,0 +1,61 @@
+.card img {
+  width: 250px;
+  margin-top: 20px;
+  height: 280px;
+  transition: transform 0.3s ease-in-out;
+  height: 300px;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+}
+.card-image-container {
+  overflow: hidden;
+  position: relative;
+  margin-top: 8px;
+}
+.card {
+  display: flex;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.747);
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  flex-direction: column;
+  border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+}
+/* Button styling */
+.view-button {
+  background-color: #cddc39; /* Primary color */
+  color: black; /* White text */
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  border: none; /* Remove border */
+  padding: 10px 10px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  position: absolute;
+  right: 27%;
+  width: 120px;
+  height: 40px;
+  top: 70%;
+}
+
+.card-image-container:hover img {
+  transform: scale(1.1);
+}
+.card-image-container:hover .view-button {
+  opacity: 1;
+}
+@media screen and (max-width: 764px) {
+  .card img {
+    width: 156px;
+    height: 176px;
+  }
+  .card{
+    width: 171px;
+    height: 220px;
+
+  }
+}

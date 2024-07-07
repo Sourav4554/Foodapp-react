@@ -1,0 +1,83 @@
+.popup{
+background-color: red;
+width: 100%;
+position: fixed;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+z-index: 99;
+display: flex;
+flex-direction: column;
+background-color: rgba(0, 0, 0, 0.856);
+align-items: center;
+justify-content: center;
+}
+.popup-contents{
+display: flex;
+flex-direction: column;
+width: 800px;
+height: 700px;
+background-color: rgb(207 243 188);
+box-shadow: 0 6px 15px rgb(42 31 60);
+}
+.icon{
+width: 20px;
+position: absolute;
+top: 1%;
+right: 1%;
+}
+.image-in-popup{
+display: flex;
+margin-left: 8px;
+margin-right: 8px;
+
+}
+.image-in-popup h1{
+color: black;
+margin: auto;
+font-size: 40px;
+margin-left: 30px;
+
+}
+.image-in-popup img{
+height: 200px;
+margin-left: 8px;
+margin-right: 8px;
+box-shadow: 0 6px 15px rgb(42 31 60);
+margin-top: 10px;
+}
+.contentdiv-for-popup{
+margin-top: 20px;
+width: 100%;
+
+}
+.contentdiv-for-popup p{
+color: black;
+font-size: 17px;
+font-weight: 700;
+margin-left: 10px;
+}
+.for-button{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 5%;
+}
+.for-button button{
+    background-color: rgb(236, 140, 14); /* Primary color */
+    color: black; /* White text */
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    border: none; /* Remove border */
+    padding: 10px 10px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+   cursor: pointer; /* Pointer cursor on hover */
+   width: 120px;
+    height: 40px;
+}
+.for-button button:hover{
+    background-color: rgb(236, 95, 14);
+    color: #fff;
+}

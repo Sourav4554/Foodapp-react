@@ -1,0 +1,46 @@
+
+.for-main-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(295px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(31, 28, 28);
+}
+.dish-name{
+text-align: center;
+color: #fff;
+font-size: 20px;
+}
+.heading-for-sp-dishes{
+    font-size: 50px;
+    text-shadow: -1px 0px 12px rgba(0, 0, 0, 0.308);
+    color: #fff;
+    font-weight: bold;
+}
+.for-heading{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(31, 28, 28);
+margin-top: -0.5%;
+}
+@media screen and (max-width:764px) {
+    .for-main-container{
+        grid-template-columns: 1fr 1fr; 
+      
+    }
+
+        .for-heading{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(31, 28, 28);
+            margin-top: -0.5%;
+            }
+            .dish-name{
+                text-align: start;
+                color: #fff;
+                font-size: 13px;
+                }
+}
