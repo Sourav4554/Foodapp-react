@@ -46,7 +46,7 @@ const Specialdishes = () => {
         <h1 className='heading-for-sp-dishes'>Special Dishes</h1>
       </div>
       <div className="for-main-container">
-        {disheS}
+        {dishes}
       </div>
     </div>
   );
