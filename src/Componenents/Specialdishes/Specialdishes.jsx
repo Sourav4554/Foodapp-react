@@ -17,7 +17,7 @@ const Specialdishes = () => {
   }
 
 //close popup
-  function closePopup() {
+ function closePopup() {
     setViewDish(false);
   }
 
